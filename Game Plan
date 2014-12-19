@@ -1,13 +1,15 @@
 Version 1
 
-the TODO-list is always available since it's carried in a smartphone that's always present... "You've recently become OBSESSED with your new TODO-list app for your smartphone. It now basically controls your life. Your only way to find inner peace, seems to be completing all tasks before you go to bed... What are you waiting for -you SLOTH!!"
+the TODO-list is always available since it's carried in a smartphone that's always present... 
 
 Game is initiated...
 	- Rooms, tasks, actors, items are constructed
 	- Player get welcome message with game instructions (Create a man page for the game, what actions are there?)
-	- Task list is presented to the player "What should I do today?, Well.. go look at your TODO-list biatch!"
+	- Task list is presented to the player "You've recently become OBSESSED with your new TODO-list app for your smartphone. 
+	It now basically controls your life. Your only way to find inner peace, seems to be completing all tasks before you go to bed... 
+	What are you waiting for -you SLOTH!!"
 
-Player can walk around the house and look at things and do whateva can be done with items, actors and so on
+Player can walk around the house and look at things and do whatever can be done with items, actors and so on
 Each item has a interface that shows what can be done with it; how?
 Eventually player gets a reminder about TODO-list, or takes an own initiative
 
@@ -17,7 +19,7 @@ Player chose a Task t
 		After some time... (think about this process, how does the player find the laundry? How does he hold it, and move it etc.)
 		- Success --> "Hang the laundry within 5 hours" if Success --> Remove t
 														else "Your clothes have rottened. Going naked to your date tonight, huh!?"
-		- Else e.g. "You didn't use any detergent, your laundry is now wet AND smelly - Well done.. NOT!"
+		- Else e.g. "You didn't use any detergent, your laundry is now wet AND smelly - Well done.. NOT!" --> "Better rewash those clothes with actual detergent!??"
 
 Player chose Task t2
 	...

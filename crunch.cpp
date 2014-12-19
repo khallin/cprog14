@@ -1,5 +1,6 @@
 #include <iostream>
 #include "game.cpp"
+#include <vector>
 
 int main(int argc, char const *argv[])
 {
@@ -22,20 +23,23 @@ int main(int argc, char const *argv[])
 			break;
 	}
 
- 	std::string action;
+ 	std::string input;
  	std::string object;
+ 	std::vector<std::string> command;
  	
- 	int i =1;
  	while (game->playing)
  	{
-	    //Läs in command 'move kitchen' t.ex.
-	    std::cin >> action;
-	    if (action!="help" && action!="print_task" && action!="quit")
-	     	std::cin >> object;
+	    while(std::getline(std::cin, input, ' ')) {
+	    	command.push_back(input);
+	    	for( int i = 0; i != command.size(); ++i )
+    		std::cout << command[i] << " ";
+    		command.clear();
+	    }
+
+	   
 
 	    //gör invoke på move kitchen
-	    game->invoke(action, object);
-	    i++;
+	    // game->invoke(action, object);
   		}
  	return 0;
 }
